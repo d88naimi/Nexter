@@ -16,22 +16,41 @@
   </head>
   <body class="container">
     <div class="sidebar">
-        <button class="nav-btn"></button>
+      <button class="nav-btn"></button>
     </div>
     <header class="header">
-        <img src="img/logo.png" alt="Nexter Lofo" class="header__logo">
-        <h3 class="heading-3">Your Own Home:</h3>
-        <h1 class="heading-1">The ultimate personal freedom</h1>
-        <button class="btn header__btn">View our properties</button>
-        <div class="header__seeon-text"> As See On</div>
-        <div class="header__seeon-logos">
-            <img src="img/logo-bbc.png" alt="Seen on logo 1">
-            <img src="img/logo-forbes.png" alt="Seen on logo 2">
-            <img src="img/logo-techcrunch.png" alt="Seen on logo 3">
-            <img src="img/logo-bi.png" alt="Seen on logo 4">
-        </div>
+      <img src="img/logo.png" alt="Nexter Lofo" class="header__logo" />
+      <h3 class="heading-3">Your Own Home:</h3>
+      <h1 class="heading-1">The ultimate personal freedom</h1>
+      <button class="btn header__btn">View our properties</button>
+      <div class="header__seeon-text">As See On</div>
+      <div class="header__seeon-logos">
+        <img src="img/logo-bbc.png" alt="Seen on logo 1" />
+        <img src="img/logo-forbes.png" alt="Seen on logo 2" />
+        <img src="img/logo-techcrunch.png" alt="Seen on logo 3" />
+        <img src="img/logo-bi.png" alt="Seen on logo 4" />
+      </div>
     </header>
-    <div class="realtors">Top 3 realtors</div>
+    <div class="realtors">
+      <h3 class="heading-3">Top 3 realtors</h3>
+      <div class="realtors__list">
+        <img src="img/realtor-1.jpeg" alt="Realtor 1" class="realtors__img" />
+        <div class="realtors__details">
+          <h4 class="heading-4 heading-4--light">Eric Feiman</h4>
+          <p class="realtors__sold">245 house sold</p>
+        </div>
+        <img src="img/realtor-2.jpeg" alt="Realtor 2" class="realtors__img" />
+        <div class="realtors__details">
+          <h4 class="heading-4 heading-4--light">Kim Brown</h4>
+          <p class="realtors__sold">212 house sold</p>
+        </div>
+        <img src="img/realtor-3.jpeg" alt="Realtor 3" class="realtors__img" />
+        <div class="realtors__details">
+          <h4 class="heading-4 heading-4--light">Habibi</h4>
+          <p class="realtors__sold">500 house sold</p>
+        </div>
+      </div>
+    </div>
     <section class="features">
       <div class="feature">
         <svg class="feature__icon">
@@ -322,6 +341,9 @@
       <figure class="gallery__item gallery__item--1">
         <img src="img/gal-1.jpeg" alt="Gallery image 1" class="gallery__img" />
       </figure>
+      <figure class="gallery__item gallery__item--2">
+        <img src="img/gal-2.jpeg" alt="Gallery image 2" class="gallery__img" />
+      </figure>
 
       <figure class="gallery__item gallery__item--3">
         <img src="img/gal-3.jpeg" alt="Gallery image 3" class="gallery__img" />
@@ -345,33 +367,70 @@
         <img src="img/gal-9.jpeg" alt="Gallery image 9" class="gallery__img" />
       </figure>
       <figure class="gallery__item gallery__item--10">
-        <img src="img/gal-10.jpeg" alt="Gallery image 10" class="gallery__img" />
+        <img
+          src="img/gal-10.jpeg"
+          alt="Gallery image 10"
+          class="gallery__img"
+        />
       </figure>
       <figure class="gallery__item gallery__item--11">
-        <img src="img/gal-11.jpeg" alt="Gallery image 11" class="gallery__img" />
+        <img
+          src="img/gal-11.jpeg"
+          alt="Gallery image 11"
+          class="gallery__img"
+        />
       </figure>
       <figure class="gallery__item gallery__item--12">
-        <img src="img/gal-12.jpeg" alt="Gallery image 12" class="gallery__img" />
+        <img
+          src="img/gal-12.jpeg"
+          alt="Gallery image 12"
+          class="gallery__img"
+        />
       </figure>
       <figure class="gallery__item gallery__item--13">
-        <img src="img/gal-13.jpeg" alt="Gallery image 13" class="gallery__img" />
+        <img
+          src="img/gal-13.jpeg"
+          alt="Gallery image 13"
+          class="gallery__img"
+        />
       </figure>
       <figure class="gallery__item gallery__item--14">
-        <img src="img/gal-14.jpeg" alt="Gallery image 14" class="gallery__img" />
+        <img
+          src="img/gal-14.jpeg"
+          alt="Gallery image 14"
+          class="gallery__img"
+        />
       </figure>
     </section>
     <footer class="footer">
-        <ul class="nav">
-            <li class="nav__item"><a href="#" class="nav__link">Find your dream home</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Request proposal</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Download home planner</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Contact us</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Submit your property</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Come work with us!</a></li>
-    </ul>
-    <p class="copyright">
-        &copy; Copyright 2020 David Naimi Udemy course by Jonas Schmedtmann  <a href="https://www.udemy.com/course/advanced-css-and-sass/" id="udemy" target="_blank" title="Udemy Link">Udemy Link</a>
-    </p>
+      <ul class="nav">
+        <li class="nav__item">
+          <a href="#" class="nav__link">Find your dream home</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Request proposal</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Download home planner</a>
+        </li>
+        <li class="nav__item"><a href="#" class="nav__link">Contact us</a></li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Submit your property</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Come work with us!</a>
+        </li>
+      </ul>
+      <p class="copyright">
+        &copy; Copyright 2020 David Naimi Udemy course by Jonas Schmedtmann
+        <a
+          href="https://www.udemy.com/course/advanced-css-and-sass/"
+          id="udemy"
+          target="_blank"
+          title="Udemy Link"
+          >Udemy Link</a
+        >
+      </p>
     </footer>
   </body>
 </html>
